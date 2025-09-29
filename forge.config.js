@@ -63,4 +63,17 @@ module.exports = {
       [FuseV1Options.OnlyLoadAppFromAsar]: true,
     }),
   ],
+    publishers: [
+    {
+        name: "@electron-forge/publisher-github",
+        config: {
+            repository: {
+                owner: "badaboom21",
+                name: "Electron"
+            },
+            prerelease: false,
+            draft: true
+        }
+    }
+]
 };
