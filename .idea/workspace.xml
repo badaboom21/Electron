@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a19558e1-e6ca-4df2-8c21-1c68d483805d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/view/ResetPassword.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Article.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Article.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Articles.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Articles.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Login.vue" afterDir="false" />
-    </list>
+    <list default="true" id="a19558e1-e6ca-4df2-8c21-1c68d483805d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,7 +116,7 @@
       <updated>1758872908671</updated>
       <workItem from="1758872910353" duration="19252000" />
       <workItem from="1759129769732" duration="18272000" />
-      <workItem from="1759151494042" duration="646000" />
+      <workItem from="1759151494042" duration="1454000" />
     </task>
     <servers />
   </component>
