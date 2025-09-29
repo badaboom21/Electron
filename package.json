@@ -1,7 +1,7 @@
 {
   "name": "app_demo",
   "version": "1.0.0",
-  "description": "todo",
+  "description": "site d'articles",
   "main": ".vite/build/main.js",
   "scripts": {
     "start": "electron-forge start",

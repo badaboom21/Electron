@@ -1,10 +1,16 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
-import PageOne from "../view/PageOne.vue";
-import PageTwo from "../view/PageTwo.vue";
+import Login from "../view/Login.vue";
+import Articles from "../view/Articles.vue";
+import Inscription from "../view/Inscription.vue";
+import Article from "../view/Article.vue";
+import FormArticle from "../view/FormArticle.vue";
 
 const routes = [
-    { path: '/', name: 'PageOne', component: PageOne },
-    { path: '/page-2', name: 'PageTwo', component: PageTwo }
+    { path: '/login', name: 'Login', component: Login },
+    { path: '/articles', name: 'Articles', component: Articles },
+    { path: '/', name: 'Incription', component: Inscription },
+    { path: '/article/:id', name: 'Article', component: Article },
+    { path: '/formArticle/:id', name: 'FormArticle', component: FormArticle },
 ];
 
 const router = createRouter({
