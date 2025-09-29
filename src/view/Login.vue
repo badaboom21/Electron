@@ -54,6 +54,10 @@ async function login() {
     log.error("Login échoué :", err);
   }
 }
+
+function resetPassword() {
+  router.push({ name: 'ResetPassword' });
+}
 </script>
 
 <template>
@@ -96,6 +100,9 @@ async function login() {
           </div>
         </fieldset>
       </form>
+      <div class="uk-text-center">
+        <a @click="resetPassword" class="uk-link-reset uk-text-small">Mot de passe oublié</a>
+      </div>
     </div>
   </body>
 </template>

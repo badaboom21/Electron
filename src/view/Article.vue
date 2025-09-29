@@ -33,7 +33,7 @@ async function supprimer(id) {
 async function modifier(id) {
   log.info("Article : Modification...");
 
-  await router.push(`/formArticle/${id}`);
+  await router.push(`/form-article/${id}`);
 }
 
 async function retourListes() {
