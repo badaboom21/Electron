@@ -38,7 +38,7 @@ async function supprimer(id) {
     const data = await res.json();
     console.log("Réponse du serveur :", data);
 
-    await router.push("/articles");
+    await callApi();
 
   } catch (err) {
     log.error("Suppression échoué :", err);
